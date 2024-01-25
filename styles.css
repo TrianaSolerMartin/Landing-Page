@@ -1,0 +1,207 @@
+img {
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+}
+
+body {
+    font-family: 'Jost';
+    margin: 8px;
+}
+
+nav {
+    background-color: #FF7F99;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow {
+color:yellow
+}
+
+.Logo {
+    margin: 10px;
+    font-style: bold;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    margin: 10px;
+    background-color: #FFCA41;
+    font-style: normal;
+    border-color: #FFCA41;
+    border-radius: 70px;
+    cursor: pointer;
+    justify-content: space-between;
+    opacity: 40%;
+    }
+
+
+.Botones {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+   }
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content a {
+    padding: 10px;
+    background-color: #FFCA41;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*ERROR EN EL DISEÑO DE LA IMAGEN (NO SABEOS RQUE SE ME HA BORRADO*/
+
+section{
+    display: flex;
+}
+
+.imagen{
+    margin: 30px;
+    align-items: center;
+    border-radius: 50% 0% 50% 50%;
+    background-color: #FF7F99;
+}
+
+.text {
+    width: 50%;
+    display: grid;
+    justify-content: space-between;      
+}
+
+.enunciado {
+    line-height: 110%;
+}
+.titulo {
+   font-size: 35px;
+   color: #FF7F99;
+   line-height: initial;
+   line-height: 70%;
+   font-style: inherit;
+}
+
+.Descripción {
+    font-style: bold;
+}
+
+.explicación{
+    font-size: small;
+    line-height: initial;
+    line-height: 100%;
+    text-align: justify;
+} 
+
+footer {
+    background-color: #FF7F99;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: initial;
+    line-height: 60%;
+    font-size: small;
+}
+
+footer a img {
+    margin: 5px;
+    width: 45%;
+    height: 45%;
+}
+
+footer a a {
+    background-color: #FF7F99;
+}
+
+p.Linkedin a img {
+        width: 10%;
+        height: 10%;
+}
+
+.Nombres {
+    color: white;
+    font-style: oblique;
+}
+
+button:hover {
+    margin: 10px;
+    background-color: #FFCA41;
+    font-style: normal;
+    border: none;
+    border-color: #FFCA41;
+    border-radius: 70px;
+    cursor: pointer;
+    justify-content: space-between;
+    opacity: 40%;
+}
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 479px) {
+
+footer {
+    display: grid;
+    justify-content: center;
+}
+    
+img {
+    border-radius: 50%;
+}
+
+.imagen{
+    align-items: center;
+    border-radius: 50% 0% 50% 50%;
+    background-color: #FF7F99;
+}
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+.text {
+    align-items: center;
+}
+    
+footer a img {
+    justify-content: center;
+}
+    
+
+
+@media only screen 
+and (min-device-width: 480px) 
+and (max-device-width: 640px) {
+
+footer {
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.Content {
+    display: flex;
+    justify-self: center;
+}
+
+}
+
